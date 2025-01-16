@@ -1,0 +1,594 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <title></title>
+ <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@78fa5a2421587b8228150e93142e5ba97178e85b/spark/css/spark-style.css" rel="stylesheet" />
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@78fa5a2421587b8228150e93142e5ba97178e85b/spark/js/jsontree.js"></script>
+ <style></style>
+</head>
+<body class="spa  standard">
+ <div class="app">
+  <div class="layout">
+   <div class="header navbar">
+ <div class="vheader">
+  <div class="nav-logo">
+   <a href="#">
+	 <div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/commons/img/logo.png')"></div>
+   </a>
+  </div>
+  <ul class="nav-left">
+   <li class="search-box">
+	<a class="search-toggle" href="#"><i class="search-icon fa fa-search"></i><i class="search-icon-close fa fa-close"></i></a>
+   </li>
+   <li class="search-input">
+    <input id="search-tests" class="form-control" type="text" placeholder="Search...">
+   </li>
+  </ul>
+  <ul class="nav-right">
+   <li class="m-r-10"><a href="#"><span class="badge badge-primary"></span></a></li>
+   <li class="m-r-10">
+    <a href="#"><span class="badge badge-primary">16.01.2025 19:34:41</span></a>
+   </li>
+  </ul>
+ </div>
+</div>
+   <div class="side-nav">
+ <div class="side-nav-inner">
+  <ul class="side-nav-menu">
+   <li class="nav-item dropdown" onclick="toggleView('test-view')">
+    <a id="nav-test" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-list"></i></span>
+    </a>
+   </li>
+   <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+    <a id="nav-dashboard" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-bar-chart"></i></span>
+    </a>
+   </li>
+  </ul>
+ </div>
+</div>
+
+   <div class="vcontainer">
+    <div class="main-content">
+     
+
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+      <ul class="tools pull-left">
+        <li><a href="#"><span class="font-size-14">Tests</span></a></li>
+      </ul>
+      <ul class="tools text-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+          <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+ <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>             <div class="dropdown-divider"></div>
+            <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item" status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CreateBook_ShouldReturn201</p>
+            <p class="text-sm">
+              <span>19:34:41</span> / <span>319,59 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">CreateBook_ShouldReturn201</h5>
+                  <span class='badge badge-success'>16.01.2025 19:34:41</span>
+                  <span class='badge badge-danger'>16.01.2025 19:34:42</span>
+                  <span class='badge badge-default'>319,59 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:41</td>
+        <td>
+Starting test: CreateBook_ShouldReturn201        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:41</td>
+        <td>
+Starting test: CreateBook_ShouldReturn201        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:41</td>
+        <td>
+Sending request to create book...        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:42</td>
+        <td>
+Response Status Code: Created        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:42</td>
+        <td>
+Response Content: {"id":"b417cef3-f7d7-43b2-9dfd-9cfc4e691712","title":"Test name","author":"Nikita Woki - legenda","isbn":"978-809374413","publishedDate":"2004-12-12T00:00:00Z"}        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>янв. 16, 2025 19:34:42</td>
+        <td>
+Book created successfully with ID: b417cef3-f7d7-43b2-9dfd-9cfc4e691712        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>янв. 16, 2025 19:34:42</td>
+        <td>
+Test Passed        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">DeleteBook_ShouldReturn204</p>
+            <p class="text-sm">
+              <span>19:34:44</span> / <span>204,53 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">DeleteBook_ShouldReturn204</h5>
+                  <span class='badge badge-success'>16.01.2025 19:34:44</span>
+                  <span class='badge badge-danger'>16.01.2025 19:34:44</span>
+                  <span class='badge badge-default'>204,53 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:44</td>
+        <td>
+Starting test: DeleteBook_ShouldReturn204        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:44</td>
+        <td>
+Starting test: DeleteBook_ShouldReturn204        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:44</td>
+        <td>
+Attempting to delete book with ID: b417cef3-f7d7-43b2-9dfd-9cfc4e691712        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:44</td>
+        <td>
+Response Status Code: NoContent        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>янв. 16, 2025 19:34:44</td>
+        <td>
+Book with ID b417cef3-f7d7-43b2-9dfd-9cfc4e691712 deleted successfully.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:44</td>
+        <td>
+Verifying that book with ID b417cef3-f7d7-43b2-9dfd-9cfc4e691712 no longer exists...        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:44</td>
+        <td>
+Verification Response Status Code: NotFound        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>янв. 16, 2025 19:34:44</td>
+        <td>
+Book with ID b417cef3-f7d7-43b2-9dfd-9cfc4e691712 was successfully removed.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>янв. 16, 2025 19:34:44</td>
+        <td>
+Test Passed        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">GetAllBooks_ShouldReturnList</p>
+            <p class="text-sm">
+              <span>19:34:44</span> / <span>186,76 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">GetAllBooks_ShouldReturnList</h5>
+                  <span class='badge badge-success'>16.01.2025 19:34:44</span>
+                  <span class='badge badge-danger'>16.01.2025 19:34:44</span>
+                  <span class='badge badge-default'>186,76 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:44</td>
+        <td>
+Starting test: GetAllBooks_ShouldReturnList        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:44</td>
+        <td>
+Starting test: GetAllBooks_ShouldReturnList        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:44</td>
+        <td>
+Response Status Code: OK        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:44</td>
+        <td>
+Response Content: [{"id":"c0e362b6-f2f4-4642-9961-544a87f33a97","title":"Don Quixote","author":"Miguel de Cervantes","isbn":"978-0060934347","publishedDate":"1605-01-16T00:00:00"},{"id":"a46f70f3-b0fc-4147-854d-61879ab87d83","title":"Jane Eyre","author":"Charlotte Brontë","isbn":"978-0141441146","publishedDate":"1847-10-16T00:00:00"},{"id":"b227c64b-d899-44a4-8fa0-c53a730d52fc","title":"Moby-Dick","author":"Herman Melville","isbn":"978-1503280786","publishedDate":"1851-10-18T00:00:00"},{"id":"4c66b42d-4b54-4a1f-8e8f-da0919782bec","title":"War and Peace","author":"Leo Tolstoy","isbn":"978-0199232762","publishedDate":"1869-01-01T00:00:00Z"},{"id":"4c83f830-c212-4e60-80de-a35f8c849137","title":"War and Peace","author":"Leo Tolstoy","isbn":"978-0199232765","publishedDate":"1869-01-01T00:00:00Z"},{"id":"4f492e4e-e32c-40a2-8025-8f0389a86f07","title":"War and Peace","author":"Leo Tolstoy","isbn":"978-284932873","publishedDate":"1869-01-01T00:00:00Z"},{"id":"7885e4eb-5d2a-4121-9fa4-e721278bc7be","title":"War and Peace","author":"Leo Tolstoy","isbn":"978-0199232724","publishedDate":"1869-01-01T00:00:00Z"},{"id":"b228cf52-ecdc-4204-aae6-41137d34ba2a","title":"War and Peace","author":"Leo Tolstoy","isbn":"978-0119232761","publishedDate":"1869-01-01T00:00:00Z"},{"id":"d5c4bb36-fc5d-41fe-9172-8eb84859746e","title":"War and Peace","author":"Leo Tolstoy","isbn":"978-0199232764","publishedDate":"1869-01-01T00:00:00Z"},{"id":"ea8c347f-4157-41ea-aff6-6b737341651f","title":"War and Peace","author":"Leo Tolstoy","isbn":"978-803102001","publishedDate":"1869-01-01T00:00:00Z"},{"id":"f7fcdedb-e762-425e-a8ff-02a81a2b2e82","title":"War and Peace","author":"Leo Tolstoy","isbn":"978-335481579","publishedDate":"1869-01-01T00:00:00Z"},{"id":"cdd30714-9e19-4ba0-890b-1cf354f1cdb3","title":"Updated Title","author":"Leo Tolstoy","isbn":"978-0590353427","publishedDate":"1870-01-01T00:00:00Z"},{"id":"eb470f78-ff83-41ae-909a-86a2b1ba83f6","title":"The Adventures of Huckleberry Finn","author":"Mark Twain","isbn":"978-0486280615","publishedDate":"1884-12-10T00:00:00"},{"id":"7bca0f07-6755-4c94-85c8-d92762cb8ba1","title":"The Great Gatsby","author":"F. Scott Fitzgerald","isbn":"978-0743273565","publishedDate":"1925-04-10T00:00:00"},{"id":"3f0d0652-9a9d-464b-bde2-17247f497ae0","title":"The Catcher in the Rye","author":"J.D. Salinger","isbn":"978-0316769488","publishedDate":"1951-07-16T00:00:00"},{"id":"d5b7c827-04db-4ecf-b6d6-bdeed470e503","title":"The Lord of the Rings","author":"J.R.R. Tolkien","isbn":"978-0544003415","publishedDate":"1954-07-29T00:00:00"},{"id":"99a8e489-c573-4aaf-8470-d71e73154643","title":"Harry Potter and the Chamber of Secrets","author":"J.K. Rowling","isbn":"978-0439064873","publishedDate":"1998-07-02T00:00:00"},{"id":"8fe94047-6f55-44ff-a14e-080045505f62","title":"Harry Potter and the Prisoner of Azkaban","author":"J.K. Rowling","isbn":"978-0439136365","publishedDate":"1999-07-08T00:00:00"},{"id":"bdd358c6-0cdc-452f-89f4-beccdd7e46b0","title":"Duplicate Book","author":"Author","isbn":"978-0000000000","publishedDate":"2000-01-01T00:00:00Z"},{"id":"b4f6d5b2-b399-4ff0-9f47-88cc680256ed","title":"Harry Potter and the Goblet of Fire","author":"J.K. Rowling","isbn":"978-0439139601","publishedDate":"2000-07-08T00:00:00"},{"id":"6aa69e2b-32ad-478d-b426-3f4d8f009e11","title":"Harry Potter and the Order of the Phoenix","author":"J.K. Rowling","isbn":"978-0439358071","publishedDate":"2003-06-21T00:00:00"},{"id":"3c20f07e-3b69-483a-84a0-95af72e1d408","title":"Test name","author":"Nikita Woki - legenda","isbn":"978-833257721","publishedDate":"2004-12-12T00:00:00Z"},{"id":"3fcbd82b-2ad8-4954-855a-016cef7f5428","title":"Test name","author":"Nikita Woki - legenda","isbn":"978-378924409","publishedDate":"2004-12-12T00:00:00Z"},{"id":"a7189353-fc70-46c3-88fe-894f6db04dd1","title":"Test name","author":"Nikita Woki - legenda","isbn":"978-633010218","publishedDate":"2004-12-12T00:00:00Z"},{"id":"bd559908-b2f5-4ad9-8de2-611f7d7e8d2c","title":"Test name","author":"Nikita Woki - legenda","isbn":"978-804253098","publishedDate":"2004-12-12T00:00:00Z"},{"id":"d1ee7cee-426a-4ca6-bb96-959b6c7326a3","title":"Test name","author":"Nikita Woki - legenda","isbn":"978-545732157","publishedDate":"2004-12-12T00:00:00Z"},{"id":"063541ab-038d-4c41-b946-3d44a74856a4","title":"Harry Potter and the Half-Blood Prince","author":"J.K. Rowling","isbn":"978-0439785969","publishedDate":"2005-07-16T00:00:00"},{"id":"856495df-9dd7-4703-a6ec-6c9f4fe06f28","title":"Harry Potter and the Deathly Hallows","author":"J.K. Rowling","isbn":"978-0545010221","publishedDate":"2007-07-21T00:00:00"},{"id":"569e4031-1b7f-4471-bd1c-b5e016fd7c26","title":"Updated Title","author":"Updated Author","isbn":"978-0000000001","publishedDate":"2023-01-01T00:00:00Z"},{"id":"6586b315-750e-429e-95ad-8ed013038705","title":"Updated Title","author":"Updated Author","isbn":"978-0141439556","publishedDate":"2023-01-01T00:00:00Z"},{"id":"e1168a8a-8f07-4d7a-a0dd-f3117d084975","title":"string","author":"string","isbn":"string","publishedDate":"2025-01-16T13:27:10.495Z"},{"id":"cbce7371-155f-480a-8b5b-0f5dd2f12345","title":"string","author":"string","isbn":"978-0121441146","publishedDate":"2025-01-16T14:30:21.357Z"},{"id":"d26e157d-76c8-43dd-83c2-bcdfb559792a","title":"string","author":"string","isbn":"978-0199232763","publishedDate":"2025-01-16T14:30:21.357Z"},{"id":"be2b8144-05ce-46e3-a11b-7eb391a118bb","title":"Test Book","author":"Test Author","isbn":"1234567890","publishedDate":"2025-01-16T14:52:08.5257687+00:00"},{"id":"69e4461f-245f-41f0-bb34-8fa82f07bcf5","title":"string","author":"string","isbn":"978-0451524935","publishedDate":"2025-01-16T15:29:43.342Z"},{"id":"ba1b5f13-7043-4d83-aad9-2742d9868742","title":"Updated Title","author":"string","isbn":"978-0061120084","publishedDate":"2025-01-16T15:29:43.342Z"},{"id":"453e012e-f5bc-4d65-b318-57626a7ba7bc","title":"Test Bookk","author":"Test Authorr","isbn":"1234567899","publishedDate":"2025-01-16T15:33:16.5761489+00:00"},{"id":"e9935038-1dbc-4873-8861-b1480461daa3","title":"Test Book","author":"Test Author","isbn":"978-0197849660","publishedDate":"2025-01-16T16:23:42.3647348+00:00"},{"id":"b0830585-b60d-4a5a-89cd-1617eefba878","title":"Test Book","author":"Test Author","isbn":"978-0198507151","publishedDate":"2025-01-16T16:30:37.7464599+00:00"},{"id":"6d4e7658-a9d3-41e7-a506-e41babe87fc9","title":"Test Book","author":"Test Author","isbn":"978-0193455210","publishedDate":"2025-01-16T16:31:33.1358539+00:00"},{"id":"ca9a347d-281e-48ec-8ab0-6f5b6ece7905","title":"Test Book","author":"Test Author","isbn":"978-0196080345","publishedDate":"2025-01-16T16:31:46.9439733+00:00"},{"id":"e6bfe9b1-633b-4b91-9c69-c8ffafa5b3ed","title":"Test Book","author":"Test Author","isbn":"978-0197366532","publishedDate":"2025-01-16T16:32:17.6576767+00:00"},{"id":"a5564a23-f901-4609-91d1-cb00fd4dcf03","title":"Test Book","author":"Test Author","isbn":"978-0193778112","publishedDate":"2025-01-16T16:32:32.4071364+00:00"},{"id":"c5b7b183-59c0-4d71-9b55-b0d15291d9e4","title":"Updated Test Book","author":"Updated Test Author","isbn":"978-1503290563","publishedDate":"2025-01-16T16:32:33.2566178+00:00"}]        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>янв. 16, 2025 19:34:44</td>
+        <td>
+Book list retrieved successfully.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>янв. 16, 2025 19:34:44</td>
+        <td>
+Test Passed        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">GetBookById_ShouldReturnCorrectBook</p>
+            <p class="text-sm">
+              <span>19:34:44</span> / <span>163,51 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">GetBookById_ShouldReturnCorrectBook</h5>
+                  <span class='badge badge-success'>16.01.2025 19:34:44</span>
+                  <span class='badge badge-danger'>16.01.2025 19:34:45</span>
+                  <span class='badge badge-default'>163,51 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:44</td>
+        <td>
+Starting test: GetBookById_ShouldReturnCorrectBook        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:44</td>
+        <td>
+Starting test: GetBookById_ShouldReturnCorrectBook        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:45</td>
+        <td>
+Response Status Code: OK        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:45</td>
+        <td>
+Response Content: {"id":"d5b7c827-04db-4ecf-b6d6-bdeed470e503","title":"The Lord of the Rings","author":"J.R.R. Tolkien","isbn":"978-0544003415","publishedDate":"1954-07-29T00:00:00"}        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>янв. 16, 2025 19:34:45</td>
+        <td>
+Book retrieved successfully.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>янв. 16, 2025 19:34:45</td>
+        <td>
+Test Passed        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">UpdateBook_ShouldReturn200</p>
+            <p class="text-sm">
+              <span>19:34:45</span> / <span>160,27 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">UpdateBook_ShouldReturn200</h5>
+                  <span class='badge badge-success'>16.01.2025 19:34:45</span>
+                  <span class='badge badge-danger'>16.01.2025 19:34:45</span>
+                  <span class='badge badge-default'>160,27 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:45</td>
+        <td>
+Starting test: UpdateBook_ShouldReturn200        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:45</td>
+        <td>
+Starting test: UpdateBook_ShouldReturn200        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:45</td>
+        <td>
+Response Status Code: NoContent        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>янв. 16, 2025 19:34:45</td>
+        <td>
+Response Content:         </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>янв. 16, 2025 19:34:45</td>
+        <td>
+Book updated successfully.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>янв. 16, 2025 19:34:45</td>
+        <td>
+Test Passed        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="test-content scrollable">
+    <div class="test-content-tools">
+      <ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+    </div>
+    <div class="test-content-detail"><div class="detail-body"></div></div>
+  </div>
+</div>
+
+     
+
+<div class="container-fluid p-4 view dashboard-view">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Started</p>
+          <h3>16.01.2025 19:34:41</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Ended</p>
+          <h3>16.01.2025 19:34:45</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-pass">Tests Passed</p>
+          <h3>5</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-fail">Tests Failed</p>
+          <h3>0</h3>
+      </div></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Tests</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='parent-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='1%'>
+            <b>5</b> tests passed
+            </small>
+          </div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> tests failed, 
+            <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Log events</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='events-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='0%'><b>11</b> events passed</small></div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> events failed, 
+            <b data-tooltip='%'>23</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row"><div class="col-md-12">
+    <div class="card"><div class="card-header"><p>Timeline</p></div>
+      <div class="card-body pt-0"><div>
+        <canvas id="timeline" height="120"></canvas>
+      </div></div>
+    </div>
+  </div></div>
+  <script>
+	var timeline = { "CreateBook_ShouldReturn201":319,5908,"DeleteBook_ShouldReturn204":204,5337,"GetAllBooks_ShouldReturnList":186,7551,"GetBookById_ShouldReturnCorrectBook":163,5051,"UpdateBook_ShouldReturn200":160,266 };
+  </script>
+  <div class="row">
+  </div>
+</div>
+<script>
+  var statusGroup = {
+    parentCount: 5,
+    childCount: 0,
+    grandChildCount: 0,
+    eventsCount: 34,
+
+passParent:5,failParent:0,warningParent:0,skipParent:0,    
+passChild:0,failChild:0,warningChild:0,skipChild:0,infoChild:0,    
+passGrandChild:0,failGrandChild:0,warningGrandChild:0,skipGrandChild:0,infoGrandChild:0,    
+passEvents:11,failEvents:0,warningEvents:0,skipEvents:0,infoEvents:23,  };
+</script>
+
+    </div>
+   </div>
+  </div>
+ </div>
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/spark/js/spark-script.js"></script>
+<script type='text/javascript'></script>
+</body>
+</html>
